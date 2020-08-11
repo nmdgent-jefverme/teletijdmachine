@@ -1,0 +1,75 @@
+body {
+  font-family: 'Aldrich';
+  margin: 0;
+  background-color: #6F7E9F;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.textinput {
+  font-family: 'Aldrich';
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonGo {
+  font-family: 'Aldrich';
+  width: 100%;
+  padding: 20px;
+  font-size: 50px;
+  margin-top: 50px;
+  background-color: green;
+  border: 3px solid black;
+  border-radius: 4px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.slider {
+  margin-top: 10px;
+  width: 300px;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: red;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-top: 20px;
+}
+
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.screen {
+  margin-top: 30px;
+  border: 10px solid #D2691E;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.49);
+-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.49);
+box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.49);
+}
